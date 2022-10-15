@@ -1,0 +1,70 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
+.navbar {
+    background-color: #00afb9;
+    color: white !important;
+    font-size: 20px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);;
+}
+.nav-link {
+    color: white !important;
+}
+.oblak {
+    color: #00afb9;
+    padding: 2px 8px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+}
+.oblak:hover {
+    color: white;
+    padding: 2px 8px;
+    background-color: limegreen;
+    border-radius: 50px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    color: #00afb9 !important;
+    background-color: #fdfcdc !important;
+    box-shadow: 0 4px 6px 0 rgb(0 0 0 / 20%), 0 4px 6px 0 rgb(0 0 0 / 19%) !important;
+}
