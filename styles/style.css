@@ -17,7 +17,9 @@
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-
+    .nav-border {
+        border-right: 1px solid #00afb9;
+    }
 }
 
 /*// X-Large devices (large desktops, 1200px and up)*/
@@ -30,8 +32,8 @@
 
 }
 .navbar {
-    background-color: #00afb9;
-    color: white !important;
+    background-color: white;
+    /*color: white !important;*/
     font-size: 20px;
     padding-top: 2px !important;
     padding-bottom: 2px !important;
@@ -39,13 +41,28 @@
     box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);;
 }
 .nav-link {
+    color: #00afb9 !important;
+}
+.nav-link:hover {
+    /*background-color: #00afb9;*/
+    color: #0081a7 !important;
+}
+
+.dropdown-menu {
+    background-color: #00afb9 !important;
+}
+.dropdown-item {
     color: white !important;
+}
+.dropdown-item:hover {
+    background-color: white !important;
+    color: #0081a7 !important;
 }
 .oblak {
     font-size: 17px;
-    color: #00afb9;
+    color: white;
     padding: 2px 8px;
-    background-color: white;
+    background-color: #00afb9;
     border-radius: 50px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
@@ -100,8 +117,13 @@
     right: 25px;
     display: none;
     color: #00afb9 !important;
-    background-color: #fdfcdc !important;
-    box-shadow: 0 4px 6px 0 rgb(0 0 0 / 20%), 0 4px 6px 0 rgb(0 0 0 / 19%) !important;
+    background-color: white !important;
+    border: 1px solid #00afb9 !important;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 6px 0 rgba(0, 0, 0, 0.20) !important;
+}
+.back-to-top:hover {
+    color: white !important;
+    background-color: #00afb9 !important;
 }
 .hero-img {
     object-fit: cover;
