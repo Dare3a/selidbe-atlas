@@ -45,7 +45,7 @@
 }
 .nav-link:hover {
     /*background-color: #00afb9;*/
-    color: #0081a7 !important;
+    color: #006166 !important;
 }
 
 .dropdown-menu {
@@ -56,7 +56,7 @@
 }
 .dropdown-item:hover {
     background-color: white !important;
-    color: #0081a7 !important;
+    color: #006166 !important;
 }
 .oblak {
     font-size: 17px;
@@ -89,7 +89,7 @@
     height: 100%;
 }
 
-.carousel-cap {
+.hero-cap {
     position: absolute;
     right: 15%;
     top: 15%;
@@ -100,11 +100,22 @@
     color: #fff;
     text-align: center;
 }
-.carousel-p {
+.hero-p {
     position: absolute;
     right: 15%;
     top: 30%;
     transform: translateY(-30%);
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.hero-icons {
+    position: absolute;
+    right: 15%;
+    top: 70%;
+    transform: translateY(-70%);
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
