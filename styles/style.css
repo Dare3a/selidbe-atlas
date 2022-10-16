@@ -75,6 +75,12 @@
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
 }
+.greyscale img {
+    filter: none;
+}
+.greyscale:hover img {
+    filter: invert(26%) sepia(26%) saturate(2595%) hue-rotate(15deg) brightness(49%) contrast(101%);;
+}
 .hero-div {
     position: relative;
 }
