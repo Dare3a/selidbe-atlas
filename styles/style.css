@@ -40,6 +40,19 @@
     -webkit-box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);;
 }
+.different::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: #00afb9;
+    transition: width ease .3s;
+}
+
+.different:hover::after {
+    width: 100%;
+}
+
 .nav-link {
     color: #00afb9 !important;
 }
