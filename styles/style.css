@@ -43,6 +43,30 @@
         font-size: 22px !important;
     }
 }
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: white;
+    color: #00afb9;
+    font-size: 14px;
+    position: absolute;
+    padding: 2px 6px;
+    bottom: -2.6em;
+    left: 93%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #00afb9;
+    z-index: 99999;
+    visibility: hidden;
+}
+[data-title] {
+    position: relative;
+}
 .grey-color {
     color: #595959;
 }
