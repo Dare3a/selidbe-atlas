@@ -227,4 +227,5 @@
 }
 .hrono .card {
     background-color: #fed9b7;
+    border-bottom: 2px solid #00afb9 !important;
 }
