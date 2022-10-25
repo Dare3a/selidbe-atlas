@@ -914,38 +914,10 @@
 }
 .footer-text p {
     margin-bottom: 14px;
-    font-size: 14px;
-    color: white;
+    font-size: 15px;
+    font-style: italic;
+    color: #fed9b7;
     line-height: 28px;
-}
-.footer-social-icon span {
-    color: #fff;
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 20px;
-}
-.footer-social-icon a {
-    color: #fff;
-    font-size: 16px;
-    margin-right: 15px;
-}
-.footer-social-icon i {
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    line-height: 38px;
-    border-radius: 50%;
-}
-.facebook-bg{
-    background: #3B5998;
-}
-.twitter-bg{
-    background: #55ACEE;
-}
-.google-bg{
-    background: #DD4B39;
 }
 .footer-widget-heading h3 {
     color: #fed9b7;
@@ -976,50 +948,28 @@
     color: white;
     text-transform: capitalize;
 }
-.subscribe-form {
-    position: relative;
-    overflow: hidden;
-}
-.subscribe-form input {
-    width: 100%;
-    padding: 14px 28px;
-    background: #2E2E2E;
-    border: 1px solid #2E2E2E;
-    color: #fff;
-}
-.subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: #ff5e14;
-    padding: 13px 20px;
-    border: 1px solid #ff5e14;
-    top: 0;
-}
-.subscribe-form button i {
-    color: #fff;
-    font-size: 22px;
-    transform: rotate(-6deg);
-}
 .copyright-area{
-    background: #202020;
+    background: #006280;
     padding: 25px 0;
 }
 .copyright-text p {
     margin: 0;
     font-size: 14px;
-    color: #878787;
+    color: #fed9b7;
 }
 .copyright-text p a{
-    color: #ff5e14;
+    color: white;
 }
-.footer-menu li {
-    display: inline-block;
-    margin-left: 20px;
+.copyright-text a:hover {
+    color: #f07167;
 }
-.footer-menu li:hover a{
-    color: #ff5e14;
+.footer-menu p a{
+    color: white;
 }
-.footer-menu li a {
+.footer-menu a:hover{
+    color: #f07167;
+}
+.footer-menu p {
     font-size: 14px;
-    color: #878787;
+    color: #fed9b7;
 }
