@@ -6,6 +6,7 @@
     .hero-cap {
         font-size: 24px;
     }
+
     .hero-p {
         font-size: 16px !important;
     }
@@ -27,6 +28,7 @@
     .nav-border {
         border-right: 1px solid #00afb9;
     }
+
     .hero-p {
         font-size: 19px !important;
     }
@@ -43,11 +45,13 @@
         font-size: 22px !important;
     }
 }
+
 [data-title]:hover:after {
     opacity: 1;
     transition: all 0.1s ease 0.3s;
     visibility: visible;
 }
+
 [data-title]:after {
     content: attr(data-title);
     background-color: white;
@@ -64,21 +68,25 @@
     z-index: 99999;
     visibility: hidden;
 }
+
 [data-title] {
     position: relative;
 }
+
 .grey-color {
     color: #595959;
 }
+
 .navbar {
     background-color: white;
     /*color: white !important;*/
     font-size: 20px;
     padding-top: 2px !important;
     padding-bottom: 2px !important;
-    -webkit-box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-    box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);;
+    -webkit-box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);;
 }
+
 .different::after {
     content: '';
     display: block;
@@ -95,6 +103,7 @@
 .nav-link {
     color: #00afb9 !important;
 }
+
 .nav-link:hover {
     /*background-color: #00afb9;*/
     color: #007980 !important;
@@ -103,13 +112,16 @@
 .dropdown-menu {
     background-color: #00afb9 !important;
 }
+
 .dropdown-item {
     color: white !important;
 }
+
 .dropdown-item:hover {
     background-color: white !important;
     color: #007980 !important;
 }
+
 .oblak {
     font-size: 16px;
     color: white;
@@ -119,6 +131,7 @@
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
 }
+
 .oblak:hover {
     color: white;
     padding: 2px 8px;
@@ -127,12 +140,15 @@
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
 }
+
 .greyscale img {
     filter: none;
 }
+
 .greyscale:hover img {
     filter: invert(26%) sepia(26%) saturate(2595%) hue-rotate(15deg) brightness(49%) contrast(101%);;
 }
+
 .hero-div {
     position: relative;
 }
@@ -158,6 +174,7 @@
     color: #fff;
     /*text-align: center;*/
 }
+
 .hero-p {
     color: #fff;
     /*font-size: 18px;*/
@@ -170,6 +187,7 @@
     /*padding-bottom: 1.25rem;*/
     /*text-align: center;*/
 }
+
 .hero-icons {
     position: absolute;
     right: 15%;
@@ -181,6 +199,7 @@
     color: #fff;
     text-align: center;
 }
+
 .back-to-top {
     position: fixed;
     bottom: 25px;
@@ -191,27 +210,34 @@
     border: 1px solid #00afb9 !important;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 6px 0 rgba(0, 0, 0, 0.20) !important;
 }
+
 .back-to-top:hover {
     color: white !important;
     background-color: #00afb9 !important;
 }
+
 .hero-img {
     object-fit: cover;
     /*opacity: 0.65;*/
 }
+
 .usluge .card {
     box-shadow: rgba(0, 0, 0, 0.25) 0 5px 5px, rgba(0, 0, 0, 0.22) 0 5px 5px;
 }
+
 .usluge .card, .usluge .card-footer {
     border-color: #fed9b7 !important;
 }
+
 .card-title a:link, .card-title a:visited {
     color: #00afb9 !important;
     text-decoration: none;
 }
+
 .card-title a:hover {
     color: #009199 !important;
 }
+
 .usluge .btn-warning {
     color: white !important;
     background-color: #00afb9 !important;
@@ -228,6 +254,7 @@
 .btn-warning:focus {
     box-shadow: none !important;
 }
+
 .img-box {
     overflow: hidden;
     -webkit-transition: all 0.5s linear;
@@ -235,24 +262,29 @@
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
 }
+
 .img-box:hover img {
     -webkit-transform: scale3d(1.2, 1.2, 1);
     transform: scale3d(1.2, 1.2, 1);
 }
-.img-box img, .img-box img::before, .img-box img::after{
+
+.img-box img, .img-box img::before, .img-box img::after {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+
 .hrono .card {
     box-shadow: rgba(0, 0, 0, 0.25) 0 5px 5px, rgba(0, 0, 0, 0.22) 0 5px 5px;
 }
+
 .hrono .card {
     background-color: #fed9b7;
     border-bottom: 2px solid #00afb9 !important;
 }
+
 /*Pocetak Testimoniala*/
 #testim,
 #testim:after,
@@ -271,6 +303,7 @@
     user-select: none;
     cursor: default;
 }
+
 /*.testim {*/
 /*    width: 100%;*/
 /*    position: absolute;*/
@@ -858,22 +891,27 @@
     }
 
 }
+
 /*kraj testimoniala*/
 .sm-icons-section {
     background-color: #fed9b7;
 }
+
 /*Pocetak footera*/
 .footer-section ul {
     margin: 0;
     padding: 0;
 }
+
 .footer-section {
     background: #0081a7;
     position: relative;
 }
+
 .footer-cta {
     border-bottom: 1px solid white;
 }
+
 /*.single-cta i {*/
 /*    color: #ff5e14;*/
 /*    font-size: 30px;*/
@@ -884,20 +922,24 @@
     padding-left: 15px;
     display: inline-block;
 }
+
 .cta-text h4 {
     color: #fed9b7;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 2px;
 }
+
 .cta-text span {
     color: white;
     font-size: 15px;
 }
+
 .footer-content {
     position: relative;
     z-index: 2;
 }
+
 .footer-pattern img {
     position: absolute;
     top: 0;
@@ -906,12 +948,15 @@
     background-size: cover;
     background-position: 100% 100%;
 }
+
 .footer-logo {
     margin-bottom: 30px;
 }
+
 .footer-logo img {
     max-width: 200px;
 }
+
 .footer-text p {
     margin-bottom: 14px;
     font-size: 15px;
@@ -919,6 +964,7 @@
     color: #fed9b7;
     line-height: 28px;
 }
+
 .footer-widget-heading h3 {
     color: #fed9b7;
     font-size: 20px;
@@ -926,6 +972,7 @@
     margin-bottom: 40px;
     position: relative;
 }
+
 .footer-widget-heading h3::before {
     content: "";
     position: absolute;
@@ -935,41 +982,59 @@
     width: 50px;
     background: #f07167;
 }
+
 .footer-widget ul li {
     display: inline-block;
     float: left;
     width: 50%;
     margin-bottom: 12px;
 }
-.footer-widget ul li a:hover{
+
+.footer-widget ul li a:hover {
     color: #f07167;
 }
+
 .footer-widget ul li a {
     color: white;
     text-transform: capitalize;
 }
-.copyright-area{
+
+.copyright-area {
     background: #006280;
     padding: 25px 0;
 }
+
 .copyright-text p {
     margin: 0;
     font-size: 14px;
     color: #fed9b7;
 }
-.copyright-text p a{
+
+.copyright-text p a {
     color: white;
 }
+
 .copyright-text a:hover {
     color: #f07167;
 }
-.footer-menu p a{
+
+.footer-menu p a {
     color: white;
 }
-.footer-menu a:hover{
+
+.footer-menu a:hover {
     color: #f07167;
 }
+
 .footer-menu p {
     font-size: 14px;
     color: #fed9b7;
+}
+
+.cta-text span:hover {
+    color: #f07167;
+}
+
+.filter-karton {
+    filter: brightness(0) saturate(100%) invert(93%) sepia(8%) saturate(5163%) hue-rotate(300deg) brightness(123%) contrast(121%);
 }
