@@ -65,8 +65,20 @@
     <div class="container-fluid">
         <div class="col-3 d-flex justify-content-center">
             <a class="navbar-brand" href="index.html">
-                <img class="img-fluid" src="images/logo/selidbe-atlas-logo.png"
-                     alt="logo">
+                <picture>
+                    <source media="(min-width: 577px)" srcset="images/logo/selidbe-atlas-logo.webp"
+                            type="image/webp">
+                    <source media="(min-width: 577px)" srcset="images/logo/selidbe-atlas-logo.png"
+                            type="image/jpg">
+
+                    <source media="(max-width: 576px)" srcset="images/logo/selidbe-atlas-logo.webp"
+                            type="image/webp">
+                    <source media="(max-width: 576px)" srcset="images/logo/selidbe-atlas-logo.png"
+                            type="image/jpg">
+
+                    <img class="img-fluid" src="images/logo/selidbe-atlas-logo.png"
+                         alt="selidbe atlas logo">
+                </picture>
             </a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -129,12 +141,12 @@
                 <li class="nav-item">
                     <a href="mailto:" data-title="Email">
                         <picture class="greyscale ">
-                            <source media="(min-width: 577px)" srcset="images/icons/email.png"
+                            <source media="(min-width: 577px)" srcset="images/icons/email.webp"
                                     type="image/webp">
                             <source media="(min-width: 577px)" srcset="images/icons/email.png"
                                     type="image/jpg">
 
-                            <source media="(max-width: 576px)" srcset="images/icons/email.png"
+                            <source media="(max-width: 576px)" srcset="images/icons/email.webp"
                                     type="image/webp">
                             <source media="(max-width: 576px)" srcset="images/icons/email.png"
                                     type="image/jpg">
@@ -147,12 +159,12 @@
                 <li class="nav-item">
                     <a href="#" data-title="Facebook">
                         <picture class="greyscale">
-                            <source media="(min-width: 577px)" srcset="images/icons/facebook.png"
+                            <source media="(min-width: 577px)" srcset="images/icons/facebook.webp"
                                     type="image/webp">
                             <source media="(min-width: 577px)" srcset="images/icons/facebook.png"
                                     type="image/jpg">
 
-                            <source media="(max-width: 576px)" srcset="images/icons/facebook.png"
+                            <source media="(max-width: 576px)" srcset="images/icons/facebook.webp"
                                     type="image/webp">
                             <source media="(max-width: 576px)" srcset="images/icons/facebook.png"
                                     type="image/jpg">
@@ -169,18 +181,21 @@
 <section>
     <div class="hero-div">
         <picture>
-            <source media="(min-width: 577px)" srcset="images/selidba-atlas-hero.jpg"
+            <source media="(min-width: 934px)" srcset="images/selidbe-atlas-hero.webp"
                     type="image/webp">
-            <source media="(min-width: 577px)" srcset="images/selidba-atlas-hero.jpg"
+            <source media="(min-width: 934px)" srcset="images/selidbe-atlas-hero.jpg"
+                    type="image/jpg">
+            <source media="(min-width: 501px)" srcset="images/selidbe-atlas-hero_tab.webp"
+                    type="image/webp">
+            <source media="(min-width: 501px)" srcset="images/selidbe-atlas-hero_tab.jpg"
+                    type="image/jpg">
+            <source media="(max-width: 500px)" srcset="images/selidbe-atlas-hero_mob.webp"
+                    type="image/webp">
+            <source media="(max-width: 500px)" srcset="images/selidbe-atlas-hero_mob.jpg"
                     type="image/jpg">
 
-            <source media="(max-width: 576px)" srcset="images/selidba-atlas-hero.jpg"
-                    type="image/webp">
-            <source media="(max-width: 576px)" srcset="images/selidba-atlas-hero.jpg"
-                    type="image/jpg">
-
-            <img class="d-block w-100 hero-img" src="images/selidba-atlas-hero.jpg"
-                 alt="Atlas selidbe hero">
+            <img class="d-block w-100 hero-img" src="images/selidbe-atlas-hero.jpg"
+                 alt="Selidbe Atlas hero">
         </picture>
         <div class="d-flex flex-column hero-pozadina justify-content-center">
             <h1 class="hero-cap d-flex justify-content-center">Atlas selidbe Beograd</h1>
