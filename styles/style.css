@@ -45,7 +45,9 @@
         font-size: 22px !important;
     }
 }
-
+.font-20 {
+    font-size: 20px;
+}
 [data-title]:hover:after {
     opacity: 1;
     transition: all 0.1s ease 0.3s;
@@ -923,7 +925,7 @@
     display: inline-block;
 }
 
-.cta-text h4 {
+.cta-text h3 {
     color: #fed9b7;
     font-size: 20px;
     font-weight: 600;
