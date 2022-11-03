@@ -809,8 +809,22 @@
                 <div class="col-xl-4 col-lg-4 d-flex justify-content-lg-center">
                     <div class="footer-widget">
                         <div class="footer-logo d-flex justify-content-center">
-                            <a href="index.html"><img src="images/logo/selidbe-atlas-logo.png"
-                                                      class="img-fluid" alt="logo"></a>
+                            <a href="index.html">
+                                <picture>
+                                    <source media="(min-width: 577px)" srcset="images/logo/atlas-logo.webp"
+                                            type="image/webp">
+                                    <source media="(min-width: 577px)" srcset="images/logo/atlas-logo.png"
+                                            type="image/jpg">
+
+                                    <source media="(max-width: 576px)" srcset="images/logo/atlas-logo.webp"
+                                            type="image/webp">
+                                    <source media="(max-width: 576px)" srcset="images/logo/atlas-logo.png"
+                                            type="image/jpg">
+
+                                    <img class="img-fluid p-1" src="images/logo/atlas-logo.png" width="136" height="65"
+                                         alt="selidbe atlas logo footer">
+                                </picture>
+                            </a>
                         </div>
                         <div class="footer-text ">
                             <p class="py-3 py-lg-5">Selidbe Atlas Beograd najpouzdanija agencija za
