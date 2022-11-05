@@ -48,6 +48,9 @@
 .font-20 {
     font-size: 20px;
 }
+.aktivno a {
+    color: #007980 !important;
+}
 [data-title]:hover:after {
     opacity: 1;
     transition: all 0.1s ease 0.3s;
