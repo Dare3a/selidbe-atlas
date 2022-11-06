@@ -1096,6 +1096,9 @@
 
 .phone-call span {
     font-size: 30px;
+    position: relative;
+    top: -6%;
+    transform: translateY(6%);
 }
 /*poziv odmah*/
 @media only screen and (max-width: 992px) {
