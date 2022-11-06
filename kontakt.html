@@ -186,9 +186,24 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 d-flex align-content-center justify-content-center px-0">
-                    <img class="img-fluid" alt="Adventure travel" src="images/agencija-za-selidbe-atlas.jpg"/>
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="images/atlas-selidbe-kontakt.webp"
+                                type="image/webp">
+                        <source media="(min-width: 769px)" srcset="images/atlas-selidbe-kontakt.jpg"
+                                type="image/jpg">
+
+                        <source media="(max-width: 768px)" srcset="images/atlas-selidbe-kontakt_mob.webp"
+                                type="image/webp">
+                        <source media="(max-width: 768px)" srcset="images/atlas-selidbe-kontakt_mob.jpg"
+                                type="image/jpg">
+
+                        <img class="img-fluid h-100 obj-fit-cover"
+                             src="images/atlas-selidbe-kontakt.jpg"
+                             alt="atlas selidbe kontakt">
+                    </picture>
                 </div>
-                <div class="contact-us col-lg-6 d-flex flex-column flex-lg-wrap align-content-center justify-content-center">
+                <div
+                        class="contact-us col-lg-6 d-flex flex-column flex-md-wrap align-content-center justify-content-center">
                     <div>
                         <h2 class="text-center grey-color pt-3">Kontaktirajte nas</h2>
                     </div>
