@@ -1076,12 +1076,13 @@
     border-radius: 20px;
     color: white !important;
     background-color: #00afb9 !important;
+    border: #fed9b7 1px solid !important;
 }
 .send-button .send-dugme:hover {
     background-color: #009199 !important;
 }
 .send-button .form-control:focus {
-    border-color: #009199 !important;
+    /*border-color: #009199 !important;*/
     -webkit-box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.3);
 }
