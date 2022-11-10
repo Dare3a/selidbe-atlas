@@ -1202,3 +1202,26 @@
 .logo-bg {
     background-color: #fed9b7;
 }
+::-webkit-scrollbar {
+    width: 17px;
+}
+/*scrollbar*/
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00afb9;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #007980;
+    border-radius: 8px;
+    border: 1px solid white;
+}
