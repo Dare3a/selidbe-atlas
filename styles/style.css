@@ -46,7 +46,12 @@
         font-size: 22px !important;
     }
 }
-
+* {
+    font-family: 'EB Garamond', serif;
+}
+p {
+    font-size: 19px;
+}
 .font-20 {
     font-size: 20px;
 }
