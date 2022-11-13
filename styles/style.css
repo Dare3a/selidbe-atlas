@@ -8,13 +8,13 @@
     }
 
     .hero-p {
-        font-size: 16px !important;
+        font-size: 17px !important;
     }
 }
 
 @media (min-width: 576px) {
     .hero-p {
-        font-size: 17px !important;
+        font-size: 18px !important;
     }
 }
 
@@ -31,7 +31,7 @@
     }
 
     .hero-p {
-        font-size: 19px !important;
+        font-size: 22px !important;
     }
 }
 
@@ -43,20 +43,24 @@
 /*// XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
     .hero-p {
-        font-size: 22px !important;
+        font-size: 23px !important;
     }
 }
 * {
     font-family: 'EB Garamond', serif;
 }
 p {
-    font-size: 19px;
+    font-size: 20px;
+    line-height: 1.4em;
 }
 .font-20 {
     font-size: 20px;
 }
 .font-22 {
     font-size: 22px;
+}
+.font-24 {
+    font-size: 24px;
 }
 .font-26 {
     font-size: 26px;
@@ -100,7 +104,7 @@ p {
 .navbar {
     background-color: white;
     /*color: white !important;*/
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 2px !important;
     padding-bottom: 2px !important;
     -webkit-box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
@@ -469,7 +473,7 @@ p {
 
 .testim .cont div .imena {
     color: #595959;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: 15px 0;
 }
 
@@ -967,7 +971,7 @@ p {
 /*}*/
 .cta-text a {
     color: white;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .cta-text a:hover {
@@ -998,7 +1002,7 @@ p {
 
 .footer-text p {
     /*margin-bottom: 14px;*/
-    font-size: 15px;
+    font-size: 17px;
     font-style: italic;
     color: #fed9b7;
     line-height: 28px;
@@ -1036,6 +1040,7 @@ p {
 .footer-widget ul li a {
     color: white;
     text-transform: capitalize;
+    font-size: 17px;
 }
 
 .copyright-area {
@@ -1045,7 +1050,7 @@ p {
 
 .copyright-text p {
     margin: 0;
-    font-size: 14px;
+    font-size: 17px;
     color: #fed9b7;
 }
 
@@ -1066,7 +1071,7 @@ p {
 }
 
 .footer-menu p {
-    font-size: 14px;
+    font-size: 17px;
     color: #fed9b7;
 }
 
