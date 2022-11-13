@@ -40,6 +40,15 @@ $(document).ready(function () {
         return false;
     });
 });
+// Toast za poslatu poruku u kontakt formi
+// namesteno je na click zbog testa na lokalu u produkciji promeniti na submit
+$(document).ready(function () {
+    $("#form-contact, #form-contact-modal").submit(function () {
+        $(".toast").toast({ delay: 1200 });
+        $(".toast").toast("show");
+        resetForm();
+    });
+});
 // Reset kontakt forme i modal kontakt forme
 function resetForm() {
     setTimeout(() => {
