@@ -40,3 +40,45 @@ $(document).ready(function () {
         return false;
     });
 });
+// Reset kontakt forme i modal kontakt forme
+function resetForm() {
+    setTimeout(() => {
+        $("#form-contact")[0].reset();
+        $("#form-contact-modal")[0].reset();
+    }, 1000);
+
+    console.log("resetovao sam formu");
+}
+
+const windowWidth = window.innerWidth;
+const navigacija = document.querySelector(".navbar");
+const navigacijaUl = document.querySelector(".navbar-nav");
+const navbarDropped = document.querySelector(".navbar-collapse");
+const hamburgerDugme = document.querySelector(".navbar-toggler");
+if (windowWidth < 992) {
+    let navItems = navigacijaUl.querySelectorAll(".nav-item");
+    for (let item of navItems) {
+        if (!item.classList.contains("dropdown")) {
+            item.addEventListener("click", () => {
+                navigationColapse(800);
+            });
+        } else {
+            item.addEventListener("click", () => {
+                setTimeout(() => {
+                    item.children[1].classList.toggle("prikazan");
+                }, 100);
+                if (item.children[1].classList.contains("prikazan")) {
+                    item.children[1].classList.remove("show");
+                } else {
+                    item.children[1].classList.add("show");
+                }
+            });
+        }
+    }
+}
+
+function navigationColapse(interval) {
+    setTimeout(() => {
+        hamburgerDugme.click();
+    }, `${interval}`);
+}
