@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="sr_RS">
     <meta property="og:image" content="https://selidbeatlas.rs/images/atlas-selidbe-kontakt.jpg">
-    <link rel="canonical" hreflang="sr" href="https://selidbeatlas.rs/kontakt.html"/>
+    <link rel="canonical" hreflang="sr" href="https://selidbeatlas.rs/kontakt.html">
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -125,7 +125,10 @@
                 <!--                <li class="nav-item nav-border different">-->
                 <!--                    <a class="nav-link" href="#">Blog</a>-->
                 <!--                </li>-->
-                <li class="nav-item different aktivno">
+                <li class="nav-item different aktivno" itemscope="itemscope"
+                    itemtype="http://www.schema.org/SiteNavigationElement">
+                    <meta itemprop="url"
+                          content="https://selidbeatlas.rs/kontakt.html">
                     <a class="nav-link " href="kontakt.html">Kontakt</a>
                 </li>
             </ul>
@@ -222,27 +225,27 @@
                         <form action="kontakt.php" data-form-title="Kontakt" id="form-contact"
                               method="post"
                               target="votar">
-                            <input data-form-email="true" type="hidden"/>
+                            <input data-form-email="true" type="hidden">
                             <div class="row">
                                 <div class="col-12 col-sm-6">
                                     <label for="name"></label>
                                     <input class="form-control" data-form-field="Name" id="name"
                                            name="name"
-                                           placeholder="Ime" required="" type="text"/>
+                                           placeholder="Ime" required="" type="text">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <label for="surname"></label>
                                     <input class="form-control" data-form-field="surname"
                                            id="surname"
                                            name="surname" placeholder="Prezime" required=""
-                                           type="text"/>
+                                           type="text">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="email"></label>
                                 <input class="form-control" data-form-field="Email" id="email"
                                        name="email"
-                                       placeholder="Email" type="email"/>
+                                       placeholder="Email" type="email">
                             </div>
                             <div class="form-group"><label for="telefon"></label>
                                 <input type="tel" class="form-control" id="telefon" name="telefon"
