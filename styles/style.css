@@ -66,7 +66,11 @@ p {
     font-size: 26px;
 }
 
-.aktivno a {
+.aktivno > a {
+    color: #007980 !important;
+}
+.aktivno-lista > a {
+    background-color: white !important;
     color: #007980 !important;
 }
 
@@ -1243,4 +1247,16 @@ p {
 .btn-red:hover {
     background-color: #ba1e12 !important;
     color: white !important;
+}
+.text-sekcija a, .text-link a {
+    color: #00afb9;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.text-sekcija a:hover, .text-link a:hover {
+    color: #007980;
+}
+.sidebar-linkovi li {
+    list-style: none;
 }
