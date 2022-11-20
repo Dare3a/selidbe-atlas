@@ -1257,6 +1257,9 @@ p {
 .text-sekcija a:hover, .text-link a:hover {
     color: #007980;
 }
+.sidebar-linkovi {
+    background-color: #fed9b7;
+}
 .sidebar-linkovi li {
     list-style: none;
 }
