@@ -21,7 +21,7 @@
     <meta property="og:site_name" content="Atlas selidbe Beograd">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="sr_RS">
-    <meta property="og:image" content="https://selidbeatlas.rs/images/atlas-selidbe-kontakt.jpg">
+    <meta property="og:image" content="https://selidbeatlas.rs/images/kombi-za-selidbe.jpg">
     <link rel="canonical" hreflang="sr" href="https://selidbeatlas.rs/kombi-za-selidbe.html">
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,7 +99,10 @@
         <div class="collapse navbar-collapse justify-content-center col-md-6"
              id="navbarNav4">
             <ul class="navbar-nav justify-content-center">
-                <li class="nav-item different active">
+                <li class="nav-item different active" itemscope="itemscope"
+                    itemtype="http://www.schema.org/SiteNavigationElement">
+                    <meta itemprop="url"
+                          content="https://selidbeatlas.rs/">
                     <a class="nav-link nav-border aktivno" href="index.html">Selidbe <span
                             class="sr-only">(current)</span></a>
                 </li>
@@ -128,22 +131,16 @@
                 <!--                <li class="nav-item nav-border different">-->
                 <!--                    <a class="nav-link" href="#">Blog</a>-->
                 <!--                </li>-->
-                <li class="nav-item different">
+                <li class="nav-item different" itemscope="itemscope"
+                    itemtype="http://www.schema.org/SiteNavigationElement">
+                    <meta itemprop="url"
+                          content="https://selidbeatlas.rs/kontakt.html">
                     <a class="nav-link " href="kontakt.html">Kontakt</a>
                 </li>
             </ul>
         </div>
         <div class="col-3 justify-content-center d-none d-lg-flex">
             <ul class="navbar-nav me-2 social-network">
-                <!--                    <li class="nav-item different">-->
-                <!--                        <a class="nav-link" href="https://www.facebook.com/rajinovacmanastir/" target="_blank"-->
-                <!--                           title="Facebook"><i-->
-                <!--                                class="fa fa-facebook"></i></a>-->
-                <!--                    </li>-->
-                <!--                    <li class="nav-item different">-->
-                <!--                        <a class="nav-link" href="mailto:manastirrajinovac@gmail.com" title="Email"><i-->
-                <!--                                class="fa fa-envelope"></i></a>-->
-                <!--                    </li>-->
                 <li class="nav-item text-center text-md-right font-weight-bold "><a
                         href="tel:+381628596010" data-title="Telefon"
                         class="py-1 px-2 oblak">
@@ -630,6 +627,10 @@
             "streetAddress": "Predraga Tomica 14",
             "postalCode": "11000"
         },
+        "sameAs": [
+            "https://www.facebook.com/people/Selidbe-Atlas/100087945727323/",
+            "https://www.instagram.com/selidbeatlas/?igshid=YmMyMTA2M2Y%3D"
+        ],
         "contactPoint": {
             "@type": "ContactPoint",
             "email": "office@selidbeatlas.rs",
@@ -642,12 +643,68 @@
 </script>
 <script type="application/ld+json">
     {
-        "@context": "http://schema.org/",
-        "@type": "ContactPage",
-        "name": "Kontakt",
-        "description": "Atlas selidbe Beograd možete kontaktirati putem mejla ili na broj telefona 062 859 60 10. Pozovite nas i dobićete najpovoljnije usluge.",
-        "url": "https://selidbeatlas.rs/kontakt.html",
-        "image": "https://selidbeatlas.rs/images/atlas-selidbe-kontakt.jpg"
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "name": "Kombi za selidbe Beograd",
+        "description": "Agencija Atlas nudi najpovoljnije cene za kombi selidbe na teritoriji Beograda.",
+        "image": "https://selidbeatlas.rs/images/kombi-za-selidbe.jpg",
+        "url": "https://selidbeatlas.rs/kombi-za-selidbe.html",
+        "id": "hhttps://selidbeatlas.rs/kombi-za-selidbe.html#webpage",
+        "inLanguage": "sr-RS"
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Kombi za selidbe Beograd",
+        "description": "Agencija Atlas nudi najpovoljnije cene za kombi selidbe na teritoriji Beograda. Bezbedan i siguran kombi prevoz tokom preseljenja. 0628596010",
+        "image": "https://selidbeatlas.rs/images/kombi-za-selidbe.jpg",
+        "logo": "https://selidbeatlas.rs/images/logo/atlas-logo.png",
+        "url": "https://selidbeatlas.rs/",
+        "telephone": "+38162 859 60 10",
+        "priceRange": "Opciono",
+        "sameAs": [
+            "https://www.facebook.com/people/Selidbe-Atlas/100087945727323/",
+            "https://www.instagram.com/selidbeatlas/?igshid=YmMyMTA2M2Y%3D"
+        ],
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "opens": "07:00",
+                "closes": "22:00"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Predraga Tomica 14",
+            "addressLocality": "Beograd",
+            "postalCode": "11000",
+            "addressCountry": "RS"
+        },
+        "review": {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "aggregateRating",
+                "ratingValue": "5",
+                "worstRating": "1",
+                "bestRating": "5",
+                "reviewCount": "27"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Users"
+            }
+        }
     }
 </script>
 <script type="application/ld+json">
@@ -667,10 +724,10 @@
             },
             {
                 "@type": "ListItem",
-                "name": "Kontakt",
+                "name": "Kombi za selidbe Beograd",
                 "position": 2,
                 "item": {
-                    "@id": "https://selidbeatlas.rs/kontakt.html"
+                    "@id": "https://selidbeatlas.rs/kombi-za-selidbe.html"
                 }
             }
         ]
