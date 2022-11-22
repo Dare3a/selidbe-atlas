@@ -1269,3 +1269,12 @@ p {
 .sidebar-linkovi li {
     list-style: none;
 }
+.text-link {
+    color: #00afb9;
+    text-decoration: none;
+}
+
+.text-link:hover {
+    text-decoration: none;
+    color: #007980;
+}
