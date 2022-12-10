@@ -1278,3 +1278,6 @@ p {
     text-decoration: none;
     color: #007980;
 }
+b, strong {
+    color: #4d4d4d !important;
+}
