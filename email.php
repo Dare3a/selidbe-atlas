@@ -20,8 +20,6 @@ if (isset($_POST["name"]) && !empty($_POST["name"]) &&
         //Server settings
         $mail->Host = 'mail.selidbeatlas.rs';
         $mail->Port = 465;
-        $mail->Username = 'office@selidbeatlas.rs'; // email
-        $mail->Password = 'SelidbeAtlas'; //password
         $mail->IsHTML(TRUE);
         $mail->CharSet = 'UTF-8';
         $mail->isSMTP();
