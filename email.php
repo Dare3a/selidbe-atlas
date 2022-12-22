@@ -18,9 +18,9 @@ if (isset($_POST["name"]) && !empty($_POST["name"]) &&
 
     try {
         //Server settings
-        $mail->Host = 'mail.selidbeatlas.rs';
+        $mail->Host = 'mail.darko.ilic83@gmail.com';
         $mail->Port = 465;
-        $mail->Username = 'office@selidbeatlas.rs'; // email
+        $mail->Username = 'darko.ilic83@gmail.com'; // email
         $mail->Password = 'SelidbeAtlas'; //password
         $mail->IsHTML(TRUE);
         $mail->CharSet = 'UTF-8';
@@ -37,11 +37,11 @@ if (isset($_POST["name"]) && !empty($_POST["name"]) &&
         $mail->SMTPDebug  = 0;
         $mail->addReplyTo($email, $name);
         $mail->WordWrap = 50;
-        $mail->EmailHost = 'office@selidbeatlas.rs';
+        $mail->EmailHost = 'darko.ilic83@gmail.com';
 
         $mail->From = $email;
         $mail->FromName = $name;
-        $mail->addAddress('office@selidbeatlas.rs');
+        $mail->addAddress('darko.ilic83@gmail.com');
         $mail->Subject =  'Kontakt forma';
         $mail->Body = "<p>Ime: $name</p>
 <p>Prezime: $surname</p>
