@@ -228,9 +228,7 @@
                     </div>
                     <div class="kontakt px-4">
                         <iframe hidden name="votar"></iframe>
-                        <form action="kontakt.php" data-form-title="Kontakt" id="form-contact"
-                              method="post"
-                              target="votar">
+                        <form method="post" id="form-contact" data-form-title="Kontakt" target="votar">
                             <input data-form-email="true" type="hidden">
                             <div class="row">
                                 <div class="col-12 col-sm-6">
@@ -492,6 +490,29 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 <script src="scripts/main.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#submit_form').on('click', function (e) {
+            e.preventDefault();
+
+            $.ajax({
+                url: "./email.php",
+                data: $('#form-contact').serialize(),
+                type: 'POST',
+                success: function (result) {
+                    resetForm();
+                    console.log(result);
+                }
+            });
+
+        });
+
+        function resetForm() {
+            document.getElementById("form-contact").reset();
+
+        }
+    });
+</script>
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
