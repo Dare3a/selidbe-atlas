@@ -43,7 +43,8 @@ if (isset($_POST["name"]) && !empty($_POST["name"]) &&
         $mail->FromName = $name;
         $mail->addAddress('office@selidbeatlas.rs');
         $mail->Subject =  'Kontakt forma';
-        $mail->Body = "<p>Ime i prezime: $name</p>
+        $mail->Body = "<p>Ime: $name</p>
+<p>Prezime: $surname</p>
 <p>Email: $email</p>
 <p>Broj telefona: $telefon</p>
 <p>Poruka: $message</p>";
