@@ -1287,5 +1287,6 @@ b, strong {
     color: white;
     background-image: linear-gradient(to right, #00afb9, #00afb9, #27ace2, #909eee, #dc89d0);
     /*background-color: #00afb9;*/
-    padding: 0 5px;
+    padding: 0 6px;
+    border-radius: 6px;
 }
