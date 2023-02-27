@@ -1281,3 +1281,11 @@ p {
 b, strong {
     color: #4d4d4d !important;
 }
+.box-price {
+    /*width: fit-content;*/
+    line-height: 1.2em;
+    color: white;
+    background-image: linear-gradient(to right, #00afb9, #00afb9, #27ace2, #909eee, #dc89d0);
+    /*background-color: #00afb9;*/
+    padding: 0 5px;
+}
