@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    <url>
+        <loc>https://selidbeatlas.rs/</loc>
+        <video:video>
+            <video:thumbnail_loc>https://selidbeatlas.rs/images/selidbe-atlas-hero.jpg</video:thumbnail_loc>
+            <video:title>Atlas selidbe Beograd</video:title>
+            <video:description>
+                Atlas selidbe Beograd vam nudi profesionalne usluge preseljenja uz kompletnu organizaciju i logistiku na
+                brz i bezbedan način.
+            </video:description>
+            <video:content_loc>
+              https://selidbeatlas.rs/video/selidbe-atlas.mp4
+            </video:content_loc>
+<!--            <video:player_loc>--> <!--Istraziti sta se unosi u ovaj tag-->
+<!--                https://www.example.com/videoplayer.php?video=345-->
+<!--            </video:player_loc>-->
+            <video:duration>14</video:duration>
+        </video:video>
+    </url>
+</urlset>
