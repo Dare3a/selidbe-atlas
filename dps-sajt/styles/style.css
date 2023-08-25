@@ -210,3 +210,74 @@ table, tr, td, th {
 .kontakt-background {
     background-color: rgba(73, 161, 175, 0.1);
 }
+.text-link a {
+    color: #212529;
+}
+.text-link a:hover {
+    color: #12c0d3;
+}
+.statut a {
+    color: white;
+    text-decoration: none;
+}
+.statut a:hover {
+    color: #0fa3b2;
+}
+.form-control {
+    display: block;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c8ccd0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.kontakt input, .kontakt textarea {
+    background-color: #d8f2f4 !important;
+    /*border-radius: 0 !important;*/
+    /*box-shadow: 8px 8px 6px 0 rgb(0 0 0 0.50);*/
+}
+
+.kontakt .form-control:focus {
+    border-color: white !important;
+    -webkit-box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.kontakt .form-control:focus-visible {
+    outline: none;
+}
+
+.send-button .send-dugme {
+    border-radius: 15px;
+    color: white;
+    background-color: #0fa3b2;
+    /*border: #fed9b7 1px solid !important;*/
+}
+
+.send-button .send-dugme:hover {
+    background-color: #12c0d3;
+    color: white;
+}
+
+.send-button .form-control:focus {
+    /*border-color: #009199 !important;*/
+    -webkit-box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
+.skupstina a {
+    color: white;
+}
+.skupstina a:hover {
+    color: #0fa3b2;
+}
