@@ -750,14 +750,28 @@
                     <!--                        href="#">read more</a>) </p>-->
                 </div>
                 <div class="col-12 col-lg-6 d-flex flex-wrap align-content-center  pt-5 px-0 order-1 order-md-2">
-                    <div class="ratio ratio-16x9 rounded overflow-hidden">
-                        <video width="320" height="240" controls preload="metadata" title="Atlas selidbe Beograd"
-                        poster="https://selidbeatlas.rs/images/smajli-kutije.jpg">
-                            <source src="video/selidbe-atlas.mp4" type="video/mp4">
-                            <source src="video/selidbe-atlas.ogg" type="video/ogg">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
+                    <picture>
+                        <source media="(min-width: 551px)" srcset="images/smajli-kutije.webp"
+                                type="image/webp">
+                        <source media="(min-width: 551px)" srcset="images/smajli-kutije.jpg"
+                                type="image/jpg">
+
+                        <source media="(max-width: 550px)" srcset="images/smajli-kutije.webp"
+                                type="image/webp">
+                        <source media="(max-width: 550px)" srcset="images/smajli-kutije.jpg"
+                                type="image/jpg">
+
+                        <img class="img-fluid" src="images/smajli-kutije.jpg"
+                             alt="smajli-kutije-za selidbe" width="735" height="543">
+                    </picture>
+<!--                    <div class="ratio ratio-16x9 rounded overflow-hidden">-->
+<!--                        <video width="320" height="240" controls preload="metadata" title="Atlas selidbe Beograd"-->
+<!--                        poster="https://selidbeatlas.rs/images/smajli-kutije.jpg">-->
+<!--                            <source src="video/selidbe-atlas.mp4" type="video/mp4">-->
+<!--                            <source src="video/selidbe-atlas.ogg" type="video/ogg">-->
+<!--                            Your browser does not support the video tag.-->
+<!--                        </video>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
