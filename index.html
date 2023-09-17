@@ -3217,7 +3217,7 @@
 
         testim.addEventListener("touchstart", function (e) {
             touchStartPos = e.changedTouches[0].clientX;
-        })
+        },{passive: true})
 
         testim.addEventListener("touchend", function (e) {
             touchEndPos = e.changedTouches[0].clientX;

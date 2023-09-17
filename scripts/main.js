@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         } else {
             button.style.opacity = "1";
         }
-    }, {passive: true});
+    });
 
 });
 // Toast za poslatu poruku u kontakt formi
