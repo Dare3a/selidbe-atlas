@@ -1290,3 +1290,20 @@ b, strong {
     padding: 0 6px;
     border-radius: 6px;
 }
+.about-bckg-1 {
+    background-color: #fed9b7;
+}
+.about-bckg-2 {
+    background-color: #d8f2f4;
+}
+.lista-about {
+    list-style-type: none;
+}
+.lista-about span {
+    color: #00afb9;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lista-linkova {
+    list-style: none;
+}
