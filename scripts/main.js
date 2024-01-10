@@ -1,20 +1,22 @@
-let dropDownTab = document.querySelector(".dropdown");
+let dropDownTab = Array.from(document.querySelectorAll(".dropdown"));
 let dropDownTabClicable = document.querySelector("#navbarDropdownMenuLink");
-let dropDownMenu = document.querySelector(".dropdown-menu");
+let dropDownMenu = Array.from(document.querySelectorAll(".dropdown-menu"));
 // Otvaranje dropdown menija u navigaciji onhover
 if (dropDownTabClicable) {
-    dropDownTab.addEventListener("mouseenter", () => {
-        dropDownMenu.classList.add("show");
-        console.log("radim");
+    dropDownTab.forEach(tab => {
+        tab.addEventListener("mouseenter", () => {
+            const index = dropDownTab.indexOf(tab);
+            dropDownMenu[index].classList.add("show");
+        })
     });
 }
 // Zatvaranje dropdown menija u navigaciji na izlaz misa
 if (dropDownMenu) {
-    let dropDownList = [dropDownTab];
+    let dropDownList = dropDownTab;
     dropDownList.forEach((element) => {
         element.addEventListener("mouseleave", () => {
-            dropDownMenu.classList.remove("show");
-            console.log("radim na izlas");
+            const index = dropDownList.indexOf(element);
+            dropDownMenu[index].classList.remove("show");
         });
     });
 }
