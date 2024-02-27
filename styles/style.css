@@ -1307,3 +1307,13 @@ b, strong {
 .lista-linkova {
     list-style: none;
 }
+table td {
+    font-size: 19px !important;
+}
+.faq {
+    background-color: #0081a7;
+    color: white;
+}
+.faq b {
+    color: black !important;
+}
