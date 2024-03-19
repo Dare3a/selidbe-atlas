@@ -4,7 +4,7 @@
 /*// Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575px) {
     .hero-cap {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .hero-p {
@@ -13,6 +13,9 @@
 }
 
 @media (min-width: 576px) {
+    .hero-cap {
+        font-size: 35px;
+    }
     .hero-p {
         font-size: 18px !important;
     }
@@ -21,11 +24,16 @@
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-
+    .hero-cap {
+        font-size: 38px;
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    .hero-cap {
+        font-size: 42px;
+    }
     .nav-border {
         border-right: 1px solid #00afb9;
     }
