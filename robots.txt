@@ -1,7 +1,3 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
-Allow: /
 
 Sitemap: https://selidbeatlas.rs/sitemap.xml
