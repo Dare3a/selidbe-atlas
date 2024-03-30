@@ -1049,7 +1049,7 @@ p {
     color: #f07167;
 }
 
-.footer-widget ul li a {
+.footer-widget ul li a, .footer-widget ul li {
     color: white;
     text-transform: capitalize;
     font-size: 17px;
