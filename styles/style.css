@@ -1315,8 +1315,11 @@ b, strong {
 .lista-linkova {
     list-style: none;
 }
-table td {
-    font-size: 19px !important;
+.faq dt {
+    font-size: 19px;
+}
+.faq dd {
+    font-size: 18px;
 }
 .faq {
     background-color: #0081a7;
