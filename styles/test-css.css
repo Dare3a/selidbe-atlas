@@ -5375,6 +5375,14 @@ header {
     text-decoration: none;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+ol, ul {
+    padding-left: 2rem;
+}
 .pod-nav {
     /*background-image: linear-gradient(to right, #ff8095, #dc89d0, #909eee, #27ace2, #00afb9);*/
     /*color: white;*/
@@ -6474,6 +6482,12 @@ header {
 }
 .sidebar-linkovi {
     background-color: #fed9b7;
+}
+.sidebar-linkovi h3 {
+    text-align: center;
+}
+.sidebar-linkovi p {
+   padding-left: 2rem;
 }
 .sidebar-linkovi li {
     list-style: none;
