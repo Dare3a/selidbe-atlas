@@ -6474,6 +6474,10 @@ ol, ul {
 .text-sekcija a:hover, .text-link a:hover {
     color: #007980;
 }
+.text-sekcija h2 {
+    font-weight: normal !important;
+    font-size: 24px !important;
+}
 .sidebar-linkovi {
     /*border-bottom: 2px solid #00afb9 !important;*/
     /*border: 1px solid #fed9b7;*/
@@ -6484,6 +6488,7 @@ ol, ul {
     background-color: #fed9b7;
 }
 .sidebar-linkovi h3 {
+    font-weight: normal;
     text-align: center;
 }
 .sidebar-linkovi p {
