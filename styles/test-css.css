@@ -5205,6 +5205,7 @@
 p {
     font-size: 20px;
     line-height: 1.4em;
+    margin-bottom: 1rem;
 }
 .font-20 {
     font-size: 20px;
@@ -5382,6 +5383,7 @@ header {
 }
 ol, ul {
     padding-left: 2rem;
+    margin-bottom: 1rem;
 }
 .pod-nav {
     /*background-image: linear-gradient(to right, #ff8095, #dc89d0, #909eee, #27ace2, #00afb9);*/
