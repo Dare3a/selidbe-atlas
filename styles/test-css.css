@@ -5187,7 +5187,10 @@
 
 /*// X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+    .nav-link {
+        color: #00afb9 !important;
+        font-size: 22px !important;
+    }
 }
 
 /*// XX-Large devices (larger desktops, 1400px and up)*/
