@@ -5308,6 +5308,7 @@ header {
 }
 
 .dropdown-item {
+    color: white;
     display: block;
     clear: both;
     box-sizing: border-box;
@@ -5316,8 +5317,8 @@ header {
 }
 
 .dropdown-item:hover {
-    background-color: #e60000;
-    color: white !important;
+    background-color: white !important;
+    color: #007980 !important;
 }
 .navbar {
     background-color: white;
@@ -5349,19 +5350,6 @@ header {
 
 .nav-link:hover {
     /*background-color: #00afb9;*/
-    color: #007980 !important;
-}
-
-.dropdown-menu {
-    background-color: #00afb9 !important;
-}
-
-.dropdown-item {
-    color: white !important;
-}
-
-.dropdown-item:hover {
-    background-color: white !important;
     color: #007980 !important;
 }
 
