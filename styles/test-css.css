@@ -5172,8 +5172,8 @@
         font-size: 42px;
     }
     .nav-border {
-        border-right: 1px solid #00afb9;
-        padding-right: 5px;
+        /*border-right: 1px solid #00afb9;*/
+        /*padding-right: 5px;*/
         color: #00afb9;
     }
 
