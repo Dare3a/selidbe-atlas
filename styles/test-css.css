@@ -5384,7 +5384,7 @@ header {
     height: auto;
     object-fit: cover;
 }
-ol, ul {
+.text-sekcija ol, .text-sekcija ul {
     padding-left: 2rem;
     margin-bottom: 1rem;
 }
