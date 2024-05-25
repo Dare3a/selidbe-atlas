@@ -5300,7 +5300,9 @@ header {
 #hamburger span {
     cursor: pointer;
 }
-
+.hamburgerHam {
+    font-size: 25px;
+}
 .dropdown-menu {
     background-color: #00afb9 !important;
     position: relative;
