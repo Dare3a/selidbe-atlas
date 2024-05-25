@@ -5300,7 +5300,7 @@ header {
 #hamburger span {
     cursor: pointer;
 }
-.hamburgerHam {
+.hamburgerHam, #hamburgerImg {
     font-size: 25px;
 }
 .dropdown-menu {
