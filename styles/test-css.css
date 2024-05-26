@@ -6553,3 +6553,6 @@ b, strong {
 .faq b {
     color: black !important;
 }
+.font-normal {
+    font-weight: normal;
+}
