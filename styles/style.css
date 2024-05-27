@@ -5111,7 +5111,7 @@
 /*// Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575px) {
     .hero-cap {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .hero-p {
