@@ -1,24 +1,39 @@
-let dropDownTab = Array.from(document.querySelectorAll(".dropdown"));
-let dropDownTabClicable = document.querySelector("#navbarDropdownMenuLink");
-let dropDownMenu = Array.from(document.querySelectorAll(".dropdown-menu"));
-// Otvaranje dropdown menija u navigaciji onhover
-if (dropDownTabClicable) {
-    dropDownTab.forEach(tab => {
-        tab.addEventListener("mouseenter", () => {
-            const index = dropDownTab.indexOf(tab);
-            dropDownMenu[index].classList.add("show");
-        })
-    });
+"use strict";
+
+// Otvaranje i zatvaranje hamburgera
+const hamburgerImg = document.querySelector('#hamburgerImg');
+const hamburger = document.querySelector('#hamburger');
+const nav = document.querySelector('#nav');
+if (hamburger) {
+    hamburger.addEventListener('click', () => {
+        if (nav.classList.contains('flex-column')) {
+            nav.classList.replace('flex-column', 'd-none')
+            hamburgerImg.classList.replace('hamburgerX', 'hamburgerHam')
+            hamburgerImg.innerHTML = '&equiv;'
+        } else {
+            nav.classList.replace('' +
+                'd-none', 'flex-column');
+            hamburgerImg.classList.replace('hamburgerHam', 'hamburgerX')
+            hamburgerImg.innerHTML = '&#10799;'
+        }
+    })
 }
-// Zatvaranje dropdown menija u navigaciji na izlaz misa
-if (dropDownMenu) {
-    let dropDownList = dropDownTab;
-    dropDownList.forEach((element) => {
-        element.addEventListener("mouseleave", () => {
-            const index = dropDownList.indexOf(element);
-            dropDownMenu[index].classList.remove("show");
-        });
-    });
+
+// Otvaranje i zatvaranje podmenija u navigaciji za mobilni
+const padajuciMeni = document.querySelectorAll('#uslugeStrelica, #selidbeBgStrelica, #prevozStrelica,' +
+    ' #onamaStrelica');
+const padajuciMeniLista = document.querySelectorAll('#uslugeMenu, #selidbeBgMenu, #prevozMenu, #onamaMenu');
+if (padajuciMeni) {
+    padajuciMeni.forEach(item => {
+        item.addEventListener('click', () => {
+            const index = Array.prototype.indexOf.call(padajuciMeni, item)
+            if (padajuciMeniLista[index].classList.contains('show-nav-menu')) {
+                padajuciMeniLista[index].classList.remove('show-nav-menu')
+            } else {
+                padajuciMeniLista[index].classList.add('show-nav-menu');
+            }
+        })
+    })
 }
 // SCROLL TO TOP
 document.addEventListener("DOMContentLoaded", function (event) {
