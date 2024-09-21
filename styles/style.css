@@ -6472,14 +6472,24 @@ header {
     color: white !important;
 }
 .text-sekcija a, .text-link a {
-    color: #00afb9;
+    color: #0000FF;
     text-decoration: none;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
 }
 
 .text-sekcija a:hover, .text-link a:hover {
-    color: #007980;
+    color: #00afb9;
 }
+
+.sidebar-linkovi .text-link a {
+    color: #00484D;
+    text-decoration: none;
+}
+
+.sidebar-linkovi .text-link a:hover {
+    color: #00afb9;
+}
+
 .text-sekcija h2 {
     font-weight: normal !important;
     font-size: 24px !important;
