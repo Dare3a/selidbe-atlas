@@ -6472,14 +6472,13 @@ header {
     color: white !important;
 }
 .text-sekcija a, .text-link a {
-    color: #0000FF;
+    color: #0d6efd;
     text-decoration: none;
     transition-duration: 0.1s;
 }
 
 .text-sekcija a:hover, .text-link a:hover {
-    color: #0000FF;
-    text-decoration: underline;
+    color: #0d6efd;
 }
 
 .sidebar-linkovi .text-link a {
