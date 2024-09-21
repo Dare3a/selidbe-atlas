@@ -6478,7 +6478,8 @@ header {
 }
 
 .text-sekcija a:hover, .text-link a:hover {
-    color: #00afb9;
+    color: #0000FF;
+    text-decoration: underline;
 }
 
 .sidebar-linkovi .text-link a {
