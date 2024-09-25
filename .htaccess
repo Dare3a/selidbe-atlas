@@ -38,7 +38,7 @@ ExpiresDefault "access 1 month"
 
 Header set Vary "Accept-Encoding"
 
-Header set Cache-Control "max-age=2592000, public"
+Header set Cache-Control "max-age=31536000, public"
 
 </filesMatch>
 
