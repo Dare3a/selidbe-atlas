@@ -6,6 +6,7 @@
  */
 * {
     font-family: 'EB Garamond', Georgia, serif;
+    font-synthesis: weight style;
 }
 
 :root {
