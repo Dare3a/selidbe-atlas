@@ -5263,6 +5263,9 @@ p {
 .grey-color {
     color: #595959;
 }
+.color-white {
+    color: #fff;
+}
 /*NAV*/
 header {
     background-color: white;
@@ -5363,9 +5366,9 @@ header {
 
 .oblak {
     font-size: 16px;
-    color: white;
+    color: white !important;
     padding: 2px 8px;
-    background-color: #00afb9;
+    background-color: limegreen;
     border-radius: 50px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
@@ -5374,7 +5377,7 @@ header {
 .oblak:hover {
     color: white;
     padding: 2px 8px;
-    background-color: limegreen;
+    background-color: #00afb9;
     border-radius: 50px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
@@ -6521,7 +6524,7 @@ b, strong {
     /*width: fit-content;*/
     line-height: 1.2em;
     color: white;
-    background-image: linear-gradient(to right, #00afb9, #00afb9, #27ace2, #909eee, #dc89d0);
+    background-image: linear-gradient(to left, #00afb9, #00afb9, #27ace2, #909eee, #dc89d0);
     /*background-color: #00afb9;*/
     padding: 0 6px;
     border-radius: 6px;
