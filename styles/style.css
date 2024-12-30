@@ -6529,6 +6529,10 @@ b, strong {
     padding: 0 6px;
     border-radius: 6px;
 }
+
+.box-price a {
+    color: white;
+}
 .about-bckg-1 {
     background-color: #fed9b7;
 }
