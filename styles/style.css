@@ -6825,43 +6825,9 @@ textarea.form-control {
     padding: .75rem;
     word-wrap: break-word;
 }
-.card-proizvodi {
-    background-color: #00afb9;
-}
-.card-pozadina p {
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
 
-.card-pozadina a {
-    font-weight: 600;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-}
-.card-proizvodi {
-    border: 1px solid #00afb9;
-    padding: 0;
-}
-.card-proizvodi-blank {
+.card-hiden {
+    visibility: hidden;
     border: 1px solid white;
     padding: 0;
-}
-.card-align {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.card-align > * {
-    /*flex: 1;*/
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-}
-@media (min-width: 768px) {
-
-    .card-align {
-        flex-direction: row;
-    }
 }
