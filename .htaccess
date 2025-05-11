@@ -72,3 +72,29 @@ Header always set Referrer-Policy "same-origin"
 <IfModule mod_headers.c>
     Header set X-Content-Type-Options "nosniff"
 </IfModule>
+
+##GZIP kompresija##
+
+<IfModule mod_deflate.c>
+
+  AddOutputFilterByType DEFLATE text/plain
+
+  AddOutputFilterByType DEFLATE text/html
+
+  AddOutputFilterByType DEFLATE text/xml
+
+  AddOutputFilterByType DEFLATE text/css
+
+  AddOutputFilterByType DEFLATE application/javascript
+
+  AddOutputFilterByType DEFLATE application/x-javascript
+
+  AddOutputFilterByType DEFLATE application/json
+
+  AddOutputFilterByType DEFLATE application/xml
+
+  AddOutputFilterByType DEFLATE font/woff
+
+  AddOutputFilterByType DEFLATE font/woff2
+
+</IfModule>
