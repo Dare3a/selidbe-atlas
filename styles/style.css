@@ -6831,6 +6831,6 @@ textarea.form-control {
     border: 1px solid white;
     padding: 0;
 }
-html {
-    overflow-y: scroll;
-}
+/*html {*/
+/*    overflow-y: scroll;*/
+/*}*/
