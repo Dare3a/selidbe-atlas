@@ -5386,7 +5386,7 @@ header {
 .img-fluid {
     max-width: 100%;
     height: auto;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 .text-sekcija ol, .text-sekcija ul {
     padding-left: 2rem;
@@ -6830,4 +6830,7 @@ textarea.form-control {
     visibility: hidden;
     border: 1px solid white;
     padding: 0;
+}
+html {
+    overflow-y: scroll;
 }
