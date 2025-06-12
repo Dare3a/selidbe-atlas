@@ -434,37 +434,22 @@
     <section>
         <div class="hero-div">
             <picture>
-                <!-- WebP format -->
-                <source type="image/webp"
-                        srcset="
-      images/selidbe-atlas-hero_mob.webp 500w,
-      images/selidbe-atlas-hero_tab.webp 934w,
-      images/selidbe-atlas-hero.webp 1920w
-    "
-                        sizes="(max-width: 500px) 100vw,
-           (max-width: 933px) 100vw,
-           100vw">
+                <!-- Mobile -->
+                <source media="(max-width: 500px)" srcset="images/selidbe-atlas-hero_mob.webp" type="image/webp">
+                <source media="(max-width: 500px)" srcset="images/selidbe-atlas-hero_mob.jpg" type="image/jpeg">
 
-                <!-- JPG fallback -->
-                <source type="image/jpeg"
-                        srcset="
-      images/selidbe-atlas-hero_mob.jpg 500w,
-      images/selidbe-atlas-hero_tab.jpg 934w,
-      images/selidbe-atlas-hero.jpg 1920w
-    "
-                        sizes="(max-width: 500px) 100vw,
-           (max-width: 933px) 100vw,
-           100vw">
+                <!-- Tablet -->
+                <source media="(max-width: 933px)" srcset="images/selidbe-atlas-hero_tab.webp" type="image/webp">
+                <source media="(max-width: 933px)" srcset="images/selidbe-atlas-hero_tab.jpg" type="image/jpeg">
 
-                <!-- Fallback <img> tag for older browsers -->
-                <img
-                        src="images/selidbe-atlas-hero.jpg"
-                        alt="Selidbe Atlas hero"
-                        width="1920" height="930"
-                        class="d-block img-fluid hero-img"
-                        loading="lazy"
-                        decoding="async">
+                <!-- Desktop -->
+                <source media="(min-width: 934px)" srcset="images/selidbe-atlas-hero.webp" type="image/webp">
+                <source media="(min-width: 934px)" srcset="images/selidbe-atlas-hero.jpg" type="image/jpeg">
+
+                <img src="images/selidbe-atlas-hero.jpg" alt="Selidbe Atlas hero" width="1920" height="930"
+                     class="d-block img-fluid hero-img" loading="lazy" decoding="async">
             </picture>
+
 
             <!--            <picture>-->
             <!--                <source media="(min-width: 934px)" srcset="images/selidbe-atlas-hero.webp"-->
