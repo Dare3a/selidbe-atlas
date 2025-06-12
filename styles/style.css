@@ -5271,7 +5271,7 @@ header {
     background-color: white;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.30);
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
