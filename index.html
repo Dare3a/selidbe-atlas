@@ -795,6 +795,10 @@
             height: auto;
         }
 
+        .img-container {
+            aspect-ratio:  3 / 2;
+        }
+
         .greyscale img {
             filter: none;
         }
@@ -2219,20 +2223,22 @@
                 <!--                        href="#">read more</a>) </p>-->
             </div>
             <div class="col-xl-6 d-flex flex-wrap align-content-center justify-content-center pt-5 px-0 order-1 order-md-2">
-                <picture>
-                    <source media="(min-width: 551px)" srcset="images/firma-za-selidbe.webp"
-                            type="image/webp">
-                    <source media="(min-width: 551px)" srcset="images/firma-za-selidbe.jpg"
-                            type="image/jpg">
+                <div class="img-container">
+                    <picture>
+                        <source media="(min-width: 551px)" srcset="images/firma-za-selidbe.webp"
+                                type="image/webp">
+                        <source media="(min-width: 551px)" srcset="images/firma-za-selidbe.jpg"
+                                type="image/jpg">
 
-                    <source media="(max-width: 550px)" srcset="images/firma-za-selidbe_mob.webp"
-                            type="image/webp">
-                    <source media="(max-width: 550px)" srcset="images/firma-za-selidbe_mob.jpg"
-                            type="image/jpg">
+                        <source media="(max-width: 550px)" srcset="images/firma-za-selidbe_mob.webp"
+                                type="image/webp">
+                        <source media="(max-width: 550px)" srcset="images/firma-za-selidbe_mob.jpg"
+                                type="image/jpg">
 
-                    <img src="images/firma-za-selidbe.jpg" alt="Firma za selidbe atlas" width="1000" height="667"
-                         class="img-fluid" decoding="async" loading="lazy">
-                </picture>
+                        <img src="images/firma-za-selidbe.jpg" alt="Firma za selidbe atlas" width="1000" height="667"
+                             class="img-fluid" decoding="async" loading="lazy">
+                    </picture>
+                </div>
             </div>
         </div>
     </div>
