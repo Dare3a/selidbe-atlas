@@ -434,22 +434,55 @@
     <section>
         <div class="hero-div">
             <picture>
-                <source media="(min-width: 934px)" srcset="images/selidbe-atlas-hero.webp"
-                        type="image/webp">
-                <source media="(min-width: 934px)" srcset="images/selidbe-atlas-hero.jpg"
-                        type="image/jpg">
-                <source media="(min-width: 501px)" srcset="images/selidbe-atlas-hero_tab.webp"
-                        type="image/webp">
-                <source media="(min-width: 501px)" srcset="images/selidbe-atlas-hero_tab.jpg"
-                        type="image/jpg">
-                <source media="(max-width: 500px)" srcset="images/selidbe-atlas-hero_mob.webp"
-                        type="image/webp">
-                <source media="(max-width: 500px)" srcset="images/selidbe-atlas-hero_mob.jpg"
-                        type="image/jpg">
+                <!-- WebP format -->
+                <source type="image/webp"
+                        srcset="
+      images/selidbe-atlas-hero_mob.webp 500w,
+      images/selidbe-atlas-hero_tab.webp 934w,
+      images/selidbe-atlas-hero.webp 1920w
+    "
+                        sizes="(max-width: 500px) 100vw,
+           (max-width: 933px) 100vw,
+           100vw">
 
-                <img class="d-block img-fluid hero-img" src="images/selidbe-atlas-hero.jpg"
-                     alt="Selidbe Atlas hero" width="1920" height="930">
+                <!-- JPG fallback -->
+                <source type="image/jpeg"
+                        srcset="
+      images/selidbe-atlas-hero_mob.jpg 500w,
+      images/selidbe-atlas-hero_tab.jpg 934w,
+      images/selidbe-atlas-hero.jpg 1920w
+    "
+                        sizes="(max-width: 500px) 100vw,
+           (max-width: 933px) 100vw,
+           100vw">
+
+                <!-- Fallback <img> tag for older browsers -->
+                <img
+                        src="images/selidbe-atlas-hero.jpg"
+                        alt="Selidbe Atlas hero"
+                        width="1920" height="930"
+                        class="d-block img-fluid hero-img"
+                        loading="lazy"
+                        decoding="async">
             </picture>
+
+            <!--            <picture>-->
+            <!--                <source media="(min-width: 934px)" srcset="images/selidbe-atlas-hero.webp"-->
+            <!--                        type="image/webp">-->
+            <!--                <source media="(min-width: 934px)" srcset="images/selidbe-atlas-hero.jpg"-->
+            <!--                        type="image/jpg">-->
+            <!--                <source media="(min-width: 501px)" srcset="images/selidbe-atlas-hero_tab.webp"-->
+            <!--                        type="image/webp">-->
+            <!--                <source media="(min-width: 501px)" srcset="images/selidbe-atlas-hero_tab.jpg"-->
+            <!--                        type="image/jpg">-->
+            <!--                <source media="(max-width: 500px)" srcset="images/selidbe-atlas-hero_mob.webp"-->
+            <!--                        type="image/webp">-->
+            <!--                <source media="(max-width: 500px)" srcset="images/selidbe-atlas-hero_mob.jpg"-->
+            <!--                        type="image/jpg">-->
+
+            <!--                <img class="d-block img-fluid hero-img" src="images/selidbe-atlas-hero.jpg"-->
+            <!--                     alt="Selidbe Atlas hero" width="1920" height="930">-->
+            <!--            </picture>-->
             <div class="d-flex flex-column hero-pozadina justify-content-center">
                 <h1 class="d-flex justify-content-center hero-cap p-1">Selidbe Beograd - Atlas</h1>
                 <p class="hero-p d-flex justify-content-center p-2">Najpouzdanije selidbe Beograd</p>
