@@ -5384,7 +5384,6 @@ header {
 }
 
 .img-fluid {
-    aspect-ratio: 3 / 2;
     max-width: 100%;
     height: auto;
     object-fit: cover;
