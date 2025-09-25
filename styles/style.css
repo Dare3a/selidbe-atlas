@@ -5435,6 +5435,13 @@ header {
     /*object-fit: cover;*/
 }
 
+.logo-fluid {
+    aspect-ratio: 136 / 65;
+    max-width: 100%;
+    height: auto;
+    /*object-fit: cover;*/
+}
+
 .text-sekcija ol, .text-sekcija ul {
     padding-left: 2rem;
     margin-bottom: 1rem;
