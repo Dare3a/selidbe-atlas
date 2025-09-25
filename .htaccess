@@ -2,6 +2,8 @@
 
 <IfModule mod_expires.c>
   ExpiresActive On
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
   ExpiresByType image/webp "access plus 1 year"
   ExpiresByType image/jpeg "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
@@ -20,7 +22,7 @@
 
 # 1 Month for most static assets
 
-<filesMatch "\.(css|js|jpg|jpeg|png|gif|webp|svg|ico)$">
+<filesMatch "\.(woff2|woff|css|js|jpg|jpeg|png|gif|webp|svg|ico)$">
   Header set Vary "Accept-Encoding"
   Header set Cache-Control "public, max-age=31536000, immutable"
 </filesMatch>
