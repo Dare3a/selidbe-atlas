@@ -1,247 +1,244 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://selidbeatlas.rs/</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://selidbeatlas.rs/</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-beograd.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-beograd.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-novi-beograd.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-novi-beograd.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-zemun.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-zemun.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-vozdovac.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-vozdovac.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-zvezdara.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-zvezdara.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-palilula.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-palilula.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-obrenovac.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-obrenovac.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-cukarica.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-cukarica.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-rakovica.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-rakovica.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-vracar.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-vracar.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-grocka.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-grocka.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-poslovnog-prostora.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-poslovnog-prostora.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/odnosenje-starog-namestaja.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/odnosenje-starog-namestaja.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/kartonske-kutije-za-selidbu.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/kartonske-kutije-za-selidbu.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/medjugradske-selidbe.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/medjugradske-selidbe.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-srbija.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-srbija.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-pancevo.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-pancevo.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/jeftine-selidbe.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/jeftine-selidbe.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-stanova.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-stanova.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/skladistenje-stvari.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/skladistenje-stvari.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/radnici-za-selidbe.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/radnici-za-selidbe.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/manje-selidbe.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/manje-selidbe.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-firmi-i-kancelarija.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-firmi-i-kancelarija.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/cena-selidbe.html</loc>
-  <lastmod>2025-10-26T13:16:05+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/cena-selidbe.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/diplomatske-selidbe.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/diplomatske-selidbe.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/selidbe-antikviteta.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/selidbe-antikviteta.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/ikea-dostava-namestaja.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/ikea-dostava-namestaja.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/montaza-i-demontaza-namestaja.html</loc>
-  <lastmod>2025-10-26T13:16:05+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/montaza-i-demontaza-namestaja.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/pakovanje-stvari.html</loc>
-  <lastmod>2025-10-26T13:16:05+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/pakovanje-stvari.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/kombi-za-selidbe.html</loc>
-  <lastmod>2025-10-26T13:16:05+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/kombi-za-selidbe.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/kombi-prevoz-namestaja.html</loc>
-  <lastmod>2025-10-26T13:16:05+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/kombi-prevoz-namestaja.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/kamion-za-selidbe.html</loc>
-  <lastmod>2025-10-26T13:16:05+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/kamion-za-selidbe.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/transport-namestaja.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/transport-namestaja.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/transport-klavira.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/transport-klavira.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/odvozenje-starih-stvari.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/odvozenje-starih-stvari.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/prevoz-bele-tehnike.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/prevoz-bele-tehnike.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/o-nama.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/o-nama.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/blog.html</loc>
-  <lastmod>2025-11-11T21:25:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/blog.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/kontakt.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://selidbeatlas.rs/kontakt.html</loc>
+	<lastmod>2025-12-16T19:34:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/blog/zasto-angazovati-agenciju-za-selidbe-firmi.html</loc>
-  <lastmod>2025-11-11T21:25:33+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://selidbeatlas.rs/blog/selidbe-firmi-i-kancelarija-bez-zastoja-u-poslovanju.html</loc>
+	<lastmod>2025-12-16T19:34:43+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/blog/kako-zastititi-klavir-od-ostecenja-tokom-selidbe.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://selidbeatlas.rs/blog/zasto-angazovati-agenciju-za-selidbe-firmi.html</loc>
+	<lastmod>2025-12-16T19:34:43+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/blog/najcesce-greske-prilikom-selidbe-klavira.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://selidbeatlas.rs/blog/kako-zastititi-klavir-od-ostecenja-tokom-selidbe.html</loc>
+	<lastmod>2025-12-16T19:34:43+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/blog/kako-bezbedno-transportovati-klavir.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://selidbeatlas.rs/blog/najcesce-greske-prilikom-selidbe-klavira.html</loc>
+	<lastmod>2025-12-16T19:34:43+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/blog/da-li-se-isplati-samostalna-kombi-selidba.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://selidbeatlas.rs/blog/kako-bezbedno-transportovati-klavir.html</loc>
+	<lastmod>2025-12-16T19:34:43+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/blog/prednosti-kombi-selidbe-u-odnosu-na-kamionske.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://selidbeatlas.rs/blog/da-li-se-isplati-samostalna-kombi-selidba.html</loc>
+	<lastmod>2025-12-16T19:34:43+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://selidbeatlas.rs/blog/kada-je-kombi-selidba-najbolji-izbor.html</loc>
-  <lastmod>2025-10-20T20:05:08+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://selidbeatlas.rs/blog/prednosti-kombi-selidbe-u-odnosu-na-kamionske.html</loc>
+	<lastmod>2025-12-16T19:34:43+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
-
-
+<url>
+	<loc>https://selidbeatlas.rs/blog/kada-je-kombi-selidba-najbolji-izbor.html</loc>
+	<lastmod>2025-12-16T19:34:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
