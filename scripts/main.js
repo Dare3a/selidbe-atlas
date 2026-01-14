@@ -84,8 +84,11 @@ const navigacijaUl = document.querySelector(".navbar-nav");
 const navbarDropped = document.querySelector(".navbar-collapse");
 const hamburgerDugme = document.querySelector(".navbar-toggler");
 if (windowWidth < 992) {
-    let navItems = navigacijaUl.querySelectorAll(".nav-item");
+    const navItems = navigacijaUl.querySelectorAll(".nav-item");
+
     for (let item of navItems) {
+        let dropdownOpen = false; // pratimo stanje dropdown-a
+
         if (!item.classList.contains("dropdown")) {
             item.addEventListener("click", () => {
                 navigationColapse(800);
@@ -95,7 +98,10 @@ if (windowWidth < 992) {
                 setTimeout(() => {
                     item.children[1].classList.toggle("prikazan");
                 }, 100);
-                if (item.children[1].classList.contains("prikazan")) {
+
+                dropdownOpen = !dropdownOpen;
+
+                if (dropdownOpen) {
                     item.children[1].classList.remove("show");
                 } else {
                     item.children[1].classList.add("show");
@@ -104,6 +110,7 @@ if (windowWidth < 992) {
         }
     }
 }
+
 
 function navigationColapse(interval) {
     setTimeout(() => {
