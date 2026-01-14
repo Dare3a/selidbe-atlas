@@ -30,11 +30,16 @@
 /*    src: url('../fonts/eb-garamond-v32-latin-700.woff2') format('woff2');*/
 /*}*/
 
-* {
+body {
     font-family: 'EB Garamond', Georgia, serif;
     line-height: 1.5;
     font-synthesis: weight style;
 }
+
+h1, h2, h3, h4, h5, h6, p, a, li, span {
+    font-family: inherit;
+}
+
 
 :root {
     --bs-blue: #0d6efd;
