@@ -18,14 +18,15 @@
     <!--    </noscript>-->
     <!-- Preload LCP slika po veličini uređaja -->
     <link rel="preload" as="image" href="images/selidbe-atlas-hero_mob.webp"
-          imagesrcset="images/selidbe-atlas-hero_mob.webp" type="image/webp" media="(max-width: 500px)">
+          imagesrcset="images/selidbe-atlas-hero_mob.webp" type="image/webp" media="(max-width: 500px)"
+          fetchpriority="high">
 
     <link rel="preload" as="image" href="images/selidbe-atlas-hero_tab.webp"
           imagesrcset="images/selidbe-atlas-hero_tab.webp" type="image/webp"
-          media="(min-width: 501px) and (max-width: 933px)">
+          media="(min-width: 501px) and (max-width: 933px)" fetchpriority="high">
 
     <link rel="preload" as="image" href="images/selidbe-atlas-hero.webp" imagesrcset="images/selidbe-atlas-hero.webp"
-          type="image/webp" media="(min-width: 934px)">
+          type="image/webp" media="(min-width: 934px)" fetchpriority="high">
 
     <!--    <link rel="stylesheet"-->
     <!--          href=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css ">-->
@@ -469,7 +470,7 @@
 
                 <img
                         src="images/selidbe-atlas-hero.jpg" alt="Selidbe Atlas hero" width="1920" height="930"
-                        class="d-block img-fluid hero-img" loading="eager" fetchpriority="high">
+                        class="d-block img-fluid hero-img" fetchpriority="high">
             </picture>
 
 
@@ -1723,7 +1724,8 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 text-right">
                     <div class="copyright-text d-flex justify-content-center">
-                        <p>Izrada sajta i SEO: <a href="https://clovercode.rs" target="_blank" rel="noopener">Clovercode</a>
+                        <p>Izrada sajta i SEO: <a href="https://clovercode.rs" target="_blank"
+                                                  rel="noopener">Clovercode</a>
                         </p>
                     </div>
                 </div>
