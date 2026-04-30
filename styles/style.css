@@ -6930,8 +6930,26 @@ textarea.form-control {
     padding: 0;
 }
 
+/* Kontejner u kojem se nalazi slika */
 .img-container {
-    aspect-ratio: 3 / 2;
+    width: 100%;
+}
+
+/* Sama slika unutar picture taga */
+.img-container picture img {
+    width: 100%;
+    height: auto;
+    /* Rezerviše prostor u odnosu 3:2 pre učitavanja */
+    aspect-ratio: 1000 / 667;
+    display: block;
+}
+
+/* Opciono: ako želiš da izbegneš da slika bude prevelika na ogromnim ekranima */
+@media (min-width: 1200px) {
+    .img-container {
+        max-width: 1000px; /* Ili neka druga širina koja ti odgovara */
+        margin: 0 auto;
+    }
 }
 
 .blog-card {
