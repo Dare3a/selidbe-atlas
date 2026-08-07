@@ -7024,3 +7024,78 @@ tbody, td, th, thead, tr {
     color: #fff;
     border-color: #373b3e;
 }
+
+/* SAKRIJ CHECKBOX */
+.faq-toggle {
+    display: none;
+}
+
+/* DIZAJN PITANJA (LABEL) - Puna širina i zaštita od preklapanja plusa */
+.faq-question {
+    background-color: #00afb9;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 55px !important; /* Obezbeđuje da tekst ne prelazi preko plus ikonice */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.faq-question:hover {
+    background-color: #008f98;
+}
+
+/* PLUS IKONICA */
+.faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1;
+    transition: transform 0.3s ease, content 0.3s ease;
+}
+
+/* DIZAJN ODGOVORA */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out, border 0.2s ease;
+    background-color: #f2fcfc;
+    border-left: 4px solid #00afb9;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    border-radius: 0 0 5px 5px;
+    padding: 0 20px;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.6;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* STANJE KADA JE PITANJE OTVORENO (CHECKED) */
+.faq-toggle:checked + .faq-question {
+    border-radius: 5px 5px 0 0;
+    background-color: #008f98;
+}
+
+/* PRETVARANJE PLUSA U MINUS UZ ROTACIJU */
+.faq-toggle:checked + .faq-question::after {
+    content: '−';
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/* PRIKAZIVANJE ODGOVORA */
+.faq-toggle:checked ~ .faq-answer {
+    max-height: 500px;
+    padding: 20px;
+}
