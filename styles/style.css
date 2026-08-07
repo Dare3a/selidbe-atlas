@@ -5250,6 +5250,18 @@ p {
     margin-bottom: 1rem;
 }
 
+.font-17 {
+    font-size: 17px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-19 {
+    font-size: 19px;
+}
+
 .font-20 {
     font-size: 20px;
 }
@@ -5268,6 +5280,14 @@ p {
 
 .font-28 {
     font-size: 28px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-32 {
+    font-size: 32px;
 }
 
 .aktivno > a {
@@ -5417,7 +5437,7 @@ header {
 }
 
 .oblak {
-    font-size: 16px;
+    font-size: 17px;
     color: white !important;
     padding: 2px 8px;
     background-color: limegreen;
@@ -5429,7 +5449,26 @@ header {
 .oblak:hover {
     color: white;
     padding: 2px 8px;
-    background-color: #00afb9;
+    background-color: #2db92d;
+    border-radius: 50px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+}
+
+.oblak-outline {
+    font-size: 17px;
+    color: white;
+    padding: 2px 8px;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+}
+
+.oblak-outline:hover {
+    color: #404040;
+    padding: 2px 8px;
+    background-color: white;
     border-radius: 50px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
@@ -7098,4 +7137,33 @@ tbody, td, th, thead, tr {
 .faq-toggle:checked ~ .faq-answer {
     max-height: 500px;
     padding: 20px;
+}
+
+.text-warning {
+   color: gold;
+}
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.rounded-pill {
+    border-radius: 50rem !important;
+}
+.text-dark {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-top-white {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
