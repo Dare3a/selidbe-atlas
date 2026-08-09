@@ -3,41 +3,40 @@
 </IfModule>
 
 ## EXPIRES CACHING ##
-
 <IfModule mod_expires.c>
   ExpiresActive On
-  ExpiresByType font/woff2 "access plus 1 year"
-  ExpiresByType font/woff "access plus 1 year"
+
+  # Slike, fontovi i ikonice - 1 godina
   ExpiresByType image/webp "access plus 1 year"
   ExpiresByType image/jpeg "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
   ExpiresByType image/gif "access plus 1 year"
   ExpiresByType image/svg+xml "access plus 1 year"
   ExpiresByType image/x-icon "access plus 1 year"
-  ExpiresByType text/css "access plus 1 month"
-  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+
+  # CSS i JavaScript - 1 godina
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+
+  # Dokumenti i ostalo - 1 mesec
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresDefault "access plus 1 month"
 </IfModule>
 
-## EXPIRES CACHING ##
-
-
-
-# 1 Month for most static assets
-
-<filesMatch "\.(woff2|woff|css|js|jpg|jpeg|png|gif|webp|svg|ico)$">
-  Header set Vary "Accept-Encoding"
-  Header set Cache-Control "public, max-age=31536000, immutable"
-</filesMatch>
-
-
+## CACHE-CONTROL HEADERS ##
+<IfModule mod_headers.c>
+  <FilesMatch "\.(woff2|woff|css|js|jpg|jpeg|png|gif|webp|svg|ico)$">
+    Header set Cache-Control "max-age=31536000, public, immutable"
+    Header set Vary "Accept-Encoding"
+  </FilesMatch>
+</IfModule>
 
 <FilesMatch "\.(html?|txt|css|js|php|pl)$">
-
     SetOutputFilter DEFLATE
-
- </FilesMatch>
+</FilesMatch>
 
 
 ErrorDocument 404 /404.html
