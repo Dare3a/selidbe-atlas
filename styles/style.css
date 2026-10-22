@@ -7180,9 +7180,9 @@ tbody, td, th, thead, tr {
 
 /* Krug sa brojem */
 .process-number-circle {
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, #0dcaf0 0%, #0385a0 100%);
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(135deg, #00afb9 0%, #006280 100%);
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
@@ -7190,7 +7190,7 @@ tbody, td, th, thead, tr {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 10px rgba(13, 202, 240, 0.3);
+    /*box-shadow: 0 4px 10px rgba(13, 202, 240, 0.3);*/
     position: relative;
     z-index: 2;
 }
@@ -7198,7 +7198,7 @@ tbody, td, th, thead, tr {
 /* Stil unutar kartice sa tekstom */
 .process-content {
     background: #ffffff;
-    padding: 20px 25px;
+    padding: 15px 15px;
     border-radius: 8px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.03);
     width: 100%;
@@ -7212,7 +7212,7 @@ tbody, td, th, thead, tr {
 
 /* Razmak i izgled stavki u listi unutar kartica */
 .custom-list li {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #4a5568;
     margin-bottom: 8px;
     display: flex;
