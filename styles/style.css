@@ -7170,3 +7170,59 @@ tbody, td, th, thead, tr {
 .uppercase {
     text-transform: uppercase;
 }
+
+/* Stilovi za sekciju transporta klavira */
+.piano-process-section {
+    background-color: #f9fbfd;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Krug sa brojem */
+.process-number-circle {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #0dcaf0 0%, #0385a0 100%);
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(13, 202, 240, 0.3);
+    position: relative;
+    z-index: 2;
+}
+
+/* Stil unutar kartice sa tekstom */
+.process-content {
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.03);
+    width: 100%;
+    border: 1px solid #edf2f7;
+}
+
+.process-content h3 {
+    font-size: 1.25rem;
+    color: #1a202c;
+}
+
+/* Razmak i izgled stavki u listi unutar kartica */
+.custom-list li {
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Stil za kvačicu umesto ikone */
+.custom-check {
+    color: #0dcaf0;
+    font-weight: bold;
+    margin-right: 10px;
+    line-height: 1.2;
+}
